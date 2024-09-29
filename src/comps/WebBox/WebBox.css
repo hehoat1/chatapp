@@ -1,0 +1,70 @@
+.cont {
+  width: fit-content;
+  max-width: 400px;
+  max-height: fit-content;
+  border-radius: 10px;
+  padding: 2px;
+  height: fit-content;
+  margin-bottom: 85px;
+  justify-content: center;
+  position: fixed;
+  bottom: 25px;
+}
+
+.capture {
+  position: fixed;
+  float: center;
+  justify-content: center;
+}
+
+.butt {
+  display: inline-flex;
+  background-color: #3D3D37;
+  color: grey;
+  border-radius: 5px;
+  border: 1px solid grey;
+  letter-spacing: 0px;
+  font-family: Inter;
+  opacity: 0.5;
+  transition: 0.1s;
+  text-transform: uppercase;
+  margin: 2px;
+  padding: 2px;
+  position: relative;
+}
+
+#goenabled {
+  cursor: default;
+  left: -3px;
+  margin-right: 0px;
+
+}
+
+#godisabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #3D3D37;
+  left: -3px;
+}
+
+
+#enabled {
+  cursor: default;
+}
+
+#disabled {
+  cursor: not-allowed;
+  pointer-events: none;
+  color: #3D3D37;
+}
+
+.butt:hover {
+  opacity: 0.8;
+  background-color: #3D3D37;
+}
+
+.webcam {
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3);
+  border-radius: 10px;
+  padding: 3px;
+}

@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+:root {
+  background-color: #1E201E;
+}
+
+
+.autoscrollable-container {
+  overflow-y: auto;
+  position: relative;
+  max-width: 300px;
+  text-align: center;
+  margin-left: -150px;
+  max-height: 83vh;
+  border-radius: 15px;
+  padding: 3px;
+  padding-bottom: 0px;
+  justify-content: space-between;
+  flex-basis: 50%;
+  row-gap: 10px;
+  margin-bottom: 0px;
+  height: fit-content;
+  position: fixed;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  left: calc(50%);
+}
+
+
+.TopBar {
+  color: #3C3D37;
+  text-align: center;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+}
+
+h1 {
+  padding: 0px;
+  display: inline;
+  font-weight: 400;
+}
+
+.huh {
+  height: 10px;
+  width: 75%;
+  position: relative;
+  display: inline-block;
+  background-color: #1E201E;
+  border-radius: 30px;
+  opacity: 0.05;
+  margin-top: 50px;
+  background-image: linear-gradient(180deg, #1E201E, #ECDFCC);
+  border: solid white;
+}
+
+.wuh {
+  height: 10px;
+  width: 75%;
+  position: relative;
+  display: inline-block;
+  background-color: #1E201E;
+  border-radius: 30px;
+  opacity: 0.05;
+  margin: 0px;
+  border: solid white;
+  background-image: linear-gradient(360deg, #1E201E, #ECDFCC)
+}
+
+#prompt {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 10px;
+  font-style: italic;
+  color: #697565;
+  margin-bottom: 3px;
+}
+
+.userPrompt {
+  justify-content: center;
+  position: relative;
+  margin: inline;
+}
+
+#userText {
+  color: #697565;
+  font-weight: 800;
+}
+
+#prompt-box {
+  border: 1.5px solid #555;
+  border-radius: 5px;
+  -webkit-translation: 0.05s linear;
+  transition: 0.05s linear;
+  outline: none;
+  background-color: #3C3D37;
+  color: white;
+}
+
+#prompt-box:focus {
+  border: 1.5px solid #ccc;
+  border-radius: 5px;
+}
+
+.butt {
+  margin-right: 20px;
+  display: inline-flex;
+  background-color: #3D3D37;
+  color: grey;
+  border-radius: 5px;
+  border: 1px solid grey;
+  letter-spacing: 0px;
+  font-family: Inter;
+  opacity: 0.5;
+  transition: 0.1s;
+  text-transform: uppercase;
+
+}
+
+.butt:hover {
+  opacity: 0.8;
+  background-color: #3D3D30;
+}
+
+#true {
+  cursor: default;
+}
+
+#false {
+  color: #3D3D37;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.wrapper-3 {
+  position: fixed;
+  bottom: 30px;
+}
+
+#cam {
+  position: fixed;
+  width: 400px;
+  height: 400px;
+}
+
+
+/*https://colorhunt.co/palette/1e201e3c3d37697565ecdfcc*/

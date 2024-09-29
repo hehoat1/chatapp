@@ -1,0 +1,12 @@
+.pos {
+  position: absolute;
+  left: 50px;
+}
+
+.text {
+  color: #3C3D37;
+  font-size: 12px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 1000px;
+  text-align: center;
+}

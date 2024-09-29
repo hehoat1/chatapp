@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+.messageBox {
+  display: block;
+  border-radius: 10px;
+  margin: 3px;
+  font-family: "Open Sans", sans-serif;
+  margin-bottom: 0px;
+  transition: 0.5s linear;
+  outline: none;
+  height: fit-content;
+  max-height: 650px;
+  min-width: 90px;
+  width: fit-content;
+  max-width: 170px;
+  position: relative;
+  background-color: #697565;
+  color: white;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-wrap: break-word;
+  box-shadow: 0 0 0 0.8px rgba(255, 255, 255, 0.3);
+}
+
+.messageBox:focus {
+  border: 1.5px solid #555;
+  border-radius: 5px;
+}
+
+.float-left {
+  float: left;
+  text-align: left;
+  padding-left: 3px;
+  margin-right: 300px;
+  background-color: #3C3D37;
+}
+
+.float-right {
+  float: right;
+  text-align: left;
+  padding-left: 3px;
+  margin-left: 300px;
+
+}
+
+#user {
+  overflow-wrap: break-word;
+  font-size: 8px;
+  font-weight: 450;
+  opacity: 0.5;
+  margin: 0;
+  margin-top: 5px;
+  padding: 0;
+  text-transform: uppercase;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 2px;
+}
+
+#text {
+  overflow-wrap: break-word;
+  padding: 5px;
+  margin: 0px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-top: 0px;
+  font-size: 12px;
+}
+
+#date {
+  text-align: left;
+  float: right;
+  font-size: 6px;
+  padding-bottom: 3px;
+  padding-right: 2px;
+  margin-right: 2px;
+  margin-top: 5px;
+  margin-left: 10px;
+  color: white;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+#timePassed {
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  font-size: 10px;
+  font-family: "Open Sans", sans-serif;
+  padding: 5px;
+  opacity: 0.5;
+}
